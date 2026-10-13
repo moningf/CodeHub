@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: CodeHub
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+
+jwt:
+  expiration-time: 3600000
+  secret-key: ${JWT_SECRET}
+
+logging:
+  level:
+    root: INFO
+    top.moningf: DEBUG
